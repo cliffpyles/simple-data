@@ -1,0 +1,60 @@
+{
+  "author": {
+    "name": "Cliff Pyles",
+    "email": "cliff@cliffpyles.com",
+    "url": "http://www.cliffpyles.com"
+  },
+  "bin": {
+    "sdata": "app/index.js",
+    "simple-data": "app/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/cliffpyles/simple-data/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "fs-extra": "^0.24.0",
+    "js-beautify": "^1.5.10",
+    "jsop": "^0.3.1",
+    "lodash": "^3.10.1",
+    "lowdb": "^0.10.2",
+    "request": "^2.61.0",
+    "underscore-db": "^0.9.0",
+    "yargs": "^3.24.0"
+  },
+  "deprecated": false,
+  "description": "This is a tool for serving data from JSON files. It is meant to be used as a Mock API. This can be useful when you need to develop the front-end separate from the backend.",
+  "devDependencies": {
+    "eslint": "^1.6.0",
+    "gulp": "^3.9.0"
+  },
+  "homepage": "https://github.com/cliffpyles/simple-data#readme",
+  "keywords": [
+    "api",
+    "node",
+    "mock",
+    "stub",
+    "rest",
+    "json",
+    "data",
+    "flat-file",
+    "json-api",
+    "swagger",
+    "json:api",
+    "server"
+  ],
+  "license": "MIT",
+  "main": "app/index.js",
+  "name": "simple-data",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cliffpyles/simple-data.git"
+  },
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Tests not configured\""
+  },
+  "version": "0.2.1"
+}
